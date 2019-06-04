@@ -1,0 +1,78 @@
+<div class="cover">
+  
+  <div id="menu">
+      <ul id="sub">
+        <li><a href="#">Home</a></li>
+        <li><a routerLink= "/register">Register</a></li>
+        <li><a routerLink= "/login">Login</a></li>
+        <li><a routerLink= "/contact-us">Contact us</a></li>
+        <li><a href="_blank">Location</a></li>
+        <li><a href="_blank">Gallery</a></li>
+        <li><a routerLink="/booking">Make a booking</a></li>
+        
+      </ul>
+  </div>
+
+  <div id="book">
+    <h2 id="heading1">Book here: </h2>
+    <div id="inner1">
+      Number of days:
+      <input type="text" name="chechin" [(ngModel)] = "sho.days"><br><br>
+     
+      Number of guest:
+      <input type="text" name="quantity" [(ngModel)] = "sho.guests" min="1" max="5"><br><br>
+      
+          <button  (click)="save(i=1)">calculate amount</button><br><br>
+          
+          <li class="list-group-item"><label for="TOTAL AMOUNT">Total amount: </label><input type="text" [(ngModel)] = "sho2.total"></li>
+          <li>
+            <pre>
+              The booking have been reserved for 
+              {{this.days}} days, {{this.guests}} guest
+              and the total amount is R{{this.total}}.
+            </pre>
+          </li>
+      
+      <br>
+      <input type="submit"><br>
+      <div><input type="button" value="Payment" routerLink="/payment"></div><br><br>
+
+      <div class="img"><img src="../../assets/bR.jpg" alt="logo"></div>
+      
+
+    </div>
+
+  </div>
+  <div id="book1">
+    <h2 id="heading">Book here: </h2>
+    <div id="inner">
+      Number of days:
+      <input type="text" name="chechin" [(ngModel)] = "sho.days"><br><br>
+      
+      Number of guest:
+      <input type="text" name="quantity" [(ngModel)] = "sho.guests" min="1" max="2"><br><br>
+      
+      <div>
+          <input type="button" (click)="save(i=1)" value="Calculate amount"><br><br>
+          <li class="list-group-item"><label for="Total amount">Total amount: </label><input type="text" [(ngModel)] = "sho.total"></li>
+          <li>
+            <pre>
+              The booking have been reserved for 
+              {{this.days}} days, {{this.guests}} guest
+              and the total amount is R{{this.total}}.
+            </pre>
+          </li>
+      </div>
+      <br>
+      <input type="submit"><br>
+      <div><input type="button" value="Payment" routerLink="/payment"></div><br><br>
+
+      <div class="img"><img src="../../assets/bR.jpg" alt="logo"></div>
+      
+
+    </div>
+
+  </div>
+
+
+</div>

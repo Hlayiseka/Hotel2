@@ -1,0 +1,66 @@
+
+.cover{
+    background-image: url(../../assets/hotelbb.jpg);
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    height: 100vh;
+    top: 0%;
+    
+}
+
+#menu{
+    width: 100%;
+    background-color: brown;
+    height: 12%;
+    
+    position: absolute;
+    background-size: cover;
+}
+#sub{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+  
+}
+#sub li{
+    float: left;
+    letter-spacing: 3px;
+    list-style: none;
+    margin: 15px;
+}
+li a{
+    text-decoration: none;
+    color: gold;
+}
+#book{
+    height: 100vh;
+    padding: 100px;
+    position: absolute;
+    width: 32%;
+    background-size: cover;
+    background-color: brown;
+    margin-top: 6%;
+}
+#book1{
+    
+    margin-top: 104px;
+    background-size: cover;
+    background-color: brown;
+    margin-left: 560px;
+    width: 510px;
+    height: 100vh;
+}  
+#inner1{
+    left: 20px;
+    margin-top: -5px;
+}
+#inner{
+    padding: 50px;
+}
+#heading{
+    margin-top: 50px;
+}
+#heading1{
+    margin-top: -50px;
+}

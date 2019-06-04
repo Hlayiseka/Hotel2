@@ -1,0 +1,46 @@
+.container{
+    background-image: url(../../assets/hotel1.jpg);
+    max-width: 100%;
+    position: absolute;
+    background-size: cover;
+    height: 100vh;
+    top: 0%;
+}
+.heading {
+    margin-top: 400px;
+    
+}
+h1{
+    
+    text-align: center;
+}
+#menu{
+    width: 100%;
+    background-color: brown;
+    height: 15%;
+    margin-top: -460px;
+    position: absolute;
+    background-size: cover;
+}
+#sub{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+  
+}
+#sub li{
+    float: left;
+    letter-spacing: 3px;
+    list-style: none;
+    margin: 15px;
+}
+li a{
+    text-decoration: none;
+    color: gold;
+}
+img{
+    padding: 250px;
+    width: 100px;
+    right: 100%;
+    
+}

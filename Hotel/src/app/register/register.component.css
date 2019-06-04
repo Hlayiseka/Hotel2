@@ -1,0 +1,50 @@
+.cover{
+    background-image: url(../../assets/hotelR.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}    
+.page {
+    margin: 0;
+    position: relative;
+    max-width: 900px;
+    width: 500px;
+    height: 720px;
+    left: 40%;
+    top:13%;
+    position: absolute;
+    background-color: lightgray;
+}
+
+#registerBox {
+   margin-left: 40px;
+
+
+}
+input[type='text'] {
+    width: 80%;
+    height: 40px;
+}
+input[type='button'] {
+    width: 81%;
+    height: 40px;
+}
+#menu{
+    width: 100%;
+    background-color: brown;
+    height: 12%;
+    
+    position: absolute;
+    background-size: cover;
+}
+#sub li{
+    float: left;
+    letter-spacing: 3px;
+    list-style: none;
+    margin: 15px;
+}
+li a{
+    text-decoration: none;
+    color: gold;
+}
