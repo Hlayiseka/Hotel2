@@ -25,11 +25,12 @@
           <button  (click)="save(i=1)">calculate amount</button><br><br>
           
           <li class="list-group-item"><label for="TOTAL AMOUNT">Total amount: </label><input type="text" [(ngModel)] = "sho2.total"></li>
-          <li>
+          <br>
+          <li style="list-style: none">
             <pre>
-              The booking have been reserved for 
-              {{this.days}} days, {{this.guests}} guest
-              and the total amount is R{{this.total}}.
+  The booking have been reserved for 
+  {{this.days}} days, {{this.guests}} guest
+  and the total amount is R{{this.total}}.
             </pre>
           </li>
       
@@ -55,11 +56,12 @@
       <div>
           <input type="button" (click)="save(i=1)" value="Calculate amount"><br><br>
           <li class="list-group-item"><label for="Total amount">Total amount: </label><input type="text" [(ngModel)] = "sho.total"></li>
-          <li>
+          <br>
+          <li style="list-style: none">
             <pre>
-              The booking have been reserved for 
-              {{this.days}} days, {{this.guests}} guest
-              and the total amount is R{{this.total}}.
+  The booking have been reserved for 
+  {{this.days}} days, {{this.guests}} guest
+  and the total amount is R{{this.total}}.
             </pre>
           </li>
       </div>
